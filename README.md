@@ -1,36 +1,31 @@
 # cljsamplewebapiservice
 
-FIXME: description
-
-## Installation
-
-Download from https://github.com/mrayoung/cljsamplewebapiservice.
+This is a sample Clojure web app for deployment testing.
 
 ## Usage
+ 1. Clone the respository
+    `git clone https://github.com/mrayoung/cljsamplewebapiservice.git`
 
-FIXME: explanation
+ 2. Go inside directory
+    `cd cljsamplewebapiservice.git`
+ 
+ 3. Download Dependency
+    `lein dpes` 
 
-    $ java -jar cljsamplewebapiservice-0.1.0-standalone.jar [args]
+ 4. Verify Application
+    `lein run` 
+    try to access via web browser http://localhost:8080
 
-## Options
+ 5. Build Java Application
+    `lein lein uberjar`
+    After sucessful build let's run our java application
+    `$ java -jar directory/cljsamplewebapiservice-0.1.0-standalone.jar `
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
 
 ### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Please report bug here : https://github.com/mrayoung/cljsamplewebapiservice/issues/new
 
 ## License
 
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2018 
